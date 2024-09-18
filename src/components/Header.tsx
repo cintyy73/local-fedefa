@@ -2,7 +2,7 @@ import { background, Box, Flex, Image } from "@chakra-ui/react";
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
 
-import logo from "../../Public/logo-header.png";
+import logo from "../../public/logo-header.png";
 import { Links } from "../components/utils/utils";
 import HamburgerMenu from "./hamburgerMenu/HamburgerMenu";
 

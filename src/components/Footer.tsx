@@ -13,7 +13,7 @@ import {
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import logo from "../../Public/footer-logo.png";
+import logo from "../../public/footer-logo.png";
 
 export const Footer = () => {
   return (
