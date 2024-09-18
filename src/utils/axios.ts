@@ -19,12 +19,13 @@ const { VITE_API_URL, VITE_API_CLIENT_SECRET, VITE_API_CLIENT_ID } = import.meta
  * // etc...
  */
 export const api: AxiosInstance = axios.create({
-  baseURL: `${VITE_API_URL}api`, // Configuramos la base URL para la API
+  baseURL: `${import.meta
+    .env.VITE_API_URL}api`, // Configuramos la base URL para la API
 });
 
 /**
  * Interceptor para añadir el token en el encabezado de las peticiones
- */
+//  */
 api.interceptors.request.use(
   async (config) => {
     // Obtenemos el token de las cookies
